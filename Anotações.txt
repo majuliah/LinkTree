@@ -1,0 +1,19 @@
+HTML: Linguagem de marcação de texto para estruturar os textos, criar links, imagens, etc...
+CSS: Linguagem de estilo para deixar o HTML bonito.
+JavaScript: Linguagem de programação que funciona no navegador.
+
+Node: Rodar o javascript no computador
+Sql: Banco de dados para proteger os dados do programa
+
+
+HTML:
+Linguagem de marcação de hipertexto
+hipertexto:estruturas de textos com links, imagens, etc
+markup: tags para os textos
+
+<p>conteúdo</p>
+//comentários
+
+tags também possuem infomações extras, como a seguir:
+<a href="https://......> Ver site </a>
+<img src="image.jpg"/>
