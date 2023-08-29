@@ -17,3 +17,30 @@ markup: tags para os textos
 tags também possuem infomações extras, como a seguir:
 <a href="https://......> Ver site </a>
 <img src="image.jpg"/>
+
+
+CSS: estilos para o html, folha de estilo em cascata, apresentação visual
+É uma linguagem declarativa, ela dita o que as propriedades da tag do html farão
+
+body{
+   background : black;
+}
+
+Por ser cascata, ele sempre considerará a última declaração:
+
+body{
+   background : black;
+}
+
+body{
+   background : orange;
+}
+
+o background da página html ficará laranja, porque é a última notação que conta.
+A cascata perde a prioridade se uma especificação for criada
+
+
+
+BOX MODEL:
+Isso significa que tudo são caixas, todos os elementos html serão considerados uma caixa com conteúdo, largura. altura, borda, preenchimento, espaço interno e externo
+
