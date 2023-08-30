@@ -1,0 +1,11 @@
+body{
+    
+    /* background-image: url(./assets/bg-night-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; */
+
+    background: url(./assets/bg-night-mobile.png) no-repeat top center/cover;
+
+
+}
