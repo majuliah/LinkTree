@@ -1,11 +1,27 @@
 body{
-    
+
     /* background-image: url(./assets/bg-night-mobile.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover; */
 
-    background: url(./assets/bg-night-mobile.png) no-repeat top center/cover;
+    background: url(./assets\ mobile/10.png) no-repeat top center/cover;
+    
+}
 
+#container {
+    width: 360px;
+    border: 1px solid red;
+    margin: auto;
 
+    display: block;
+
+}
+
+#profile {
+    text-align: center;
+}
+
+#profile img{
+    width: 112px;
 }
