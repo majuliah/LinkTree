@@ -11,9 +11,8 @@ body{
 }
 
 body * {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Commissioner', sans-serif;
     /*
-    font-family: 'Barlow Condensed', sans-serif;
     font-family: 'Comfortaa', cursive;
     font-family: 'Itim', cursive;
     font-family: 'Commissioner', sans-serif;
@@ -23,20 +22,21 @@ body * {
     font-family: 'Signika', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     */
-    color: rgb(211, 202, 186);
-    font-weight: 800;
+    
+    color: #e2dad3;
+    font-weight: 500;
 
 }
 
 #container {
     width: 360px;
-    margin: auto;
+    margin: 56px auto 0px;
+    padding: 0 24px;
 }
 
 #profile {
     text-align: center;
     padding: 24px;
-    margin: 56px auto 0px;
 }
 
 #profile img{
@@ -44,10 +44,69 @@ body * {
 }
 
 #profile p {
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 24px;
     margin-top: 8px;
-    color:antiquewhite;
+    font-family: 'Commissioner', sans-serif;
 }
+
+/* links */
+
+ul{
+    list-style: none;
+    
+    display: flex;
+    flex-direction: column; 
+    gap: 12px;
+    padding: 24px 0;
+}
+
+ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    background: #57103e80;
+    border: 1px solid #6d073f;
+
+    border-radius: 8px;
+    backdrop-filter: blur(1px);
+
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    
+    transition: all 0.3s;
+
+}
+
+ul li a:hover{
+    background: #57103ec5;
+    border: 1px solid #630639;
+    color: #ffbb77;
+}
+
+#social-links{
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+    font-size: 40px;
+}
+
+#social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+
+#social-links a:hover{
+    background: #c77d3350;
+}
+
+
+
 
