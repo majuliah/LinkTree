@@ -31,13 +31,26 @@
 } */
 
 
-.light{
+/* .light{
     --text-color: rgb(255, 255, 255);
     --hover-color: #442f03;
     --bg-url: url(./meus\ assets/1.png); 
     --border-collor: salmon;
     --border-collor-hover: rgb(5, 151, 170);
-    --background-color: rgba(250, 128, 114, 0.322);
+    --background-color: rgba(250, 128, 114, 0.719);
+    --background-color-hover: rgba(250, 128, 114, 0.541);
+    --background-link-hover:rgba(5, 151, 170, 0.562);
+    --switch-bg-url: url(./assets/sun.svg);
+    --switch-color : rgb(5, 151, 170, 0.897);
+}  */
+
+.light{
+    --text-color: rgb(255, 255, 255);
+    --hover-color: #442f03;
+    --bg-url: url(./meus\ assets/1.png); 
+    --border-collor: rgb(114, 250, 239);
+    --border-collor-hover: rgb(5, 151, 170);
+    --background-color: rgba(114, 184, 250, 0.514);
     --background-color-hover: rgba(250, 128, 114, 0.541);
     --background-link-hover:rgba(5, 151, 170, 0.562);
     --switch-bg-url: url(./assets/sun.svg);
@@ -45,8 +58,9 @@
 } 
 
 
-/*azul*/
-/* .light{ 
+
+/* azul
+ .light{ 
     --text-color: rgb(3, 9, 65);
     --hover-color: #442f03;
     --bg-url: url(./meus\ assets/5.png);
