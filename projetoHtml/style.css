@@ -16,35 +16,20 @@
     --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
-/* blue */
-/* :root{
-    --text-color: #e2dad3;
-    --hover-color: #ffbb77;
-    --bg-url: url(./meus\ assets/7.png);
-    --border-collor: #6d073f;
-    --border-collor-hover: #6d073f;
-    --background-color: #57103e80;
-    --background-color-hover: #36062580;
-    --background-link-hover: #c77d3350;
-    --switch-bg-url: url(./assets/moon-stars.svg);
-
-} */
-
-
-/* .light{
+.light{
     --text-color: rgb(255, 255, 255);
     --hover-color: #442f03;
     --bg-url: url(./meus\ assets/1.png); 
     --border-collor: salmon;
     --border-collor-hover: rgb(5, 151, 170);
-    --background-color: rgba(250, 128, 114, 0.719);
-    --background-color-hover: rgba(250, 128, 114, 0.541);
+    --background-color: rgba(250, 128, 114, 0.397);
+    --background-color-hover: rgba(247, 99, 82, 0.541);
     --background-link-hover:rgba(5, 151, 170, 0.562);
     --switch-bg-url: url(./assets/sun.svg);
     --switch-color : rgb(5, 151, 170, 0.897);
-}  */
+} 
 
-.light{
+/* .light{
     --text-color: rgb(255, 255, 255);
     --hover-color: #442f03;
     --bg-url: url(./meus\ assets/1.png); 
@@ -55,22 +40,7 @@
     --background-link-hover:rgba(5, 151, 170, 0.562);
     --switch-bg-url: url(./assets/sun.svg);
     --switch-color : rgb(5, 151, 170, 0.897);
-} 
-
-
-
-/* azul
- .light{ 
-    --text-color: rgb(3, 9, 65);
-    --hover-color: #442f03;
-    --bg-url: url(./meus\ assets/5.png);
-    --border-collor: rgba(11, 231, 213, 0.37);
-    --border-collor-hover: rgba(59, 200, 236, 0.849);
-    --background-color: rgba(26, 74, 231, 0.281);
-    --background-color-hover: rgba(18, 93, 204, 0.541);
-    --background-link-hover: rgba(96, 179, 247, 0.658);
-    --switch-bg-url: url(./assets/sun.svg);
-} */
+}  */
 
 body{
 
@@ -79,18 +49,7 @@ body{
 }
 
 body * {
-    font-family: 'Commissioner', sans-serif;
-    /*
-    font-family: 'Comfortaa', cursive;
-    font-family: 'Itim', cursive;
-    font-family: 'Commissioner', sans-serif;
-    font-family: 'Cuprum', sans-serif;
-    font-family: 'Khand', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Signika', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    */
-    
+    font-family: 'Commissioner', sans-serif;    
     color: var(--text-color);
     font-weight: 600;
 
@@ -154,7 +113,6 @@ body * {
     background: var(--background-color);
     border: var(--border-collor);
     backdrop-filter: blur(4px);
-    /* -webkit-backdrop-filter: blur(4px); */
     border-radius: 9999px;
 }
 
@@ -213,7 +171,3 @@ ul li a:hover{
 #social-links a:hover{
     background: var(--background-link-hover);
 }
-
-
-
-
