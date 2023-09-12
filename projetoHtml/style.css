@@ -45,7 +45,7 @@
 body{
 
     background: var(--bg-url) top center/cover;
-    
+    height: 100vh;
 }
 
 body * {
@@ -57,7 +57,7 @@ body * {
 
 #container {
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
     margin: 56px auto 0px;
     padding: 0 24px;
 }
@@ -176,6 +176,16 @@ ul li a:hover{
     background: var(--background-link-hover);
 }
 
+@media (min-width: 700px){
+    :root {
+        --bg-url: url(./meus\ assets/2.png);
+    }
+
+    .light{
+        --bg-url: url(./meus\ assets/1.png);
+    }
+}
+
 /* animation*/
 @keyframes slide-in{
     from{
@@ -193,3 +203,4 @@ ul li a:hover{
         left: 0;
     }
 }
+
