@@ -2,7 +2,7 @@
 
 <p align="center">
 Página de links com a finalidade de rever conceitos de html/css/js. <br/>
-<a href="https://majuliah.github.io/LinkTree/projetoHtml/">Acessa ele aqui!</a>
+<a href="https://majuliah.github.io/LinkTree/">Acessa ele aqui!</a>
 </p>
 
 <p align="center">
