@@ -68,7 +68,8 @@ body * {
 }
 
 #profile img{
-    width: 112px;
+    width: 140px;
+    border-radius: 50%;
 }
 
 #profile p {
